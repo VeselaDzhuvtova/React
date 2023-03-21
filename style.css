@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=PT+Sans&family=PT+Serif&display=swap');
+
+body {
+    font-family: 'Comic Neue', cursive;
+    font-size: 16px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.navigation {
+    padding: 0 20px;
+}
+
+.navigation p {
+    display: inline-block;
+    font-size: 22px;
+    width: 420px;
+}
+
+nav {
+    display: inline-block;
+    font-size: 18px;
+}
+
+li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    padding: 0;
+}
+
+a:hover {
+    color: #47439d;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.site-header {
+    background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url('/Images/hhh.jpg') no-repeat;
+    background-size: cover;
+}
+
+.site-header h1 {
+    font-size: 40px;
+    background: transparent;
+    color: white;
+    width: 30%;
+    margin: 0;
+    padding: 80px 100px 200px 500px;
+}
+
+.site-header button {
+    font-size: 16px;
+    font-family: 'Comic Neue', cursive;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 25px;
+    margin: 180px 100px 80px 550px;
+    border-radius: 15px;
+}
+
+.site-header button:hover {
+    background: white;
+    color: #47439d;
+    border: 2px solid #47439d;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.welcome {
+    color: #47439d;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.contacts h2 {
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+    font-size: 32px;
+    font-style: italic;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.contacts h3 {
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+    font-size: 32px;
+    font-style: italic;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.welcome p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.insurances {
+    font-family: 'Comic Neue', cursive;
+    color: white;
+    background: #47439d;
+    padding: 20px 30px;
+}
+
+.insurances img {
+    width: 250px;
+}
+
+.insurances li {
+    width: 32%;
+    text-align: center;
+}
+
+.insurances a {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+h3:hover {
+    color: white;
+}
+
+.companies {
+    font-family: 'Comic Neue', cursive;
+    color: white;
+    background: #47439d;
+    padding: 20px 100px;
+}
+
+.companies img {
+    width: 100px;
+    height: 60px;
+}
+
+.companies li {
+    width: 200px;
+    text-align: center;
+}
+
+.companies a:hover {
+    font-size: 16px;
+    color: white;
+}
+
+.allCompanies {
+    display: inline-block;
+    padding-right: 30px;
+    border: 2px solid black;
+    width: 32%;
+}
+
+.goa {
+    font-family: 'Comic Neue', cursive;
+    color: white;
+    background: #47439d;
+    padding: 20px 200px;
+    width: 900px;
+    height: 700px;
+}
+
+#price {
+    background: #6b725b;
+}
+
+#step1 {
+    text-align: left;
+    font-size: 20px;
+    background: #47439d;
+}
+
+label {
+    color: white;
+}
+
+.form-control-step1 {
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 300px;
+}
+
+#form-step1,
+#form-step2 {
+    display: inline-block;
+    width: 33%;
+    height: 50%;
+    background: #47439d;
+    text-align: left;
+    padding: 10px 50px;
+    margin: 10px;
+}
+
+#form-step1 {
+    float: left;
+}
+
+#form-step2 {
+    float: right;
+    margin-top: 30px;
+}
+
+
+.btn-ins-button, .back-button {
+    font-size: 16px;
+    font-family: 'Comic Neue', cursive;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    padding: 10px 25px;
+    margin-top: 80px;
+    border-radius: 15px;
+    float: right;
+}
+
+.btn-ins-button:hover {
+    background: white;
+    color: #47439d;
+    border: 2px solid #47439d;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.back-button:hover {
+    background: white;
+    color: #47439d;
+    border: 2px solid #47439d;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.offer {
+    display: inline-block;
+    font-size: 26px;
+    margin-top: 90px;
+    color: blue;
+    font-weight: 700;
+}
+
+.of {
+    color: black;
+    font-size: 28px;
+    text-align: center;
+}
+
+.table {
+    color: black;
+    margin: 100px;
+}
+
+table {
+    width:80%;
+    background: #47439d;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.footer {
+    background: #47439d;
+}
+
+.text-center-copyrights {
+    font-size: 16px;
+    text-align: center;
+}
+
+.f-box {
+    font-size: 18px;
+    text-align: center; 
+}
+
